@@ -3,7 +3,9 @@ odoo:
         ocb: https://github.com/OCA/OCB
         ak: https://github.com/akretion/odoo
     merges:
-        - ocb 10.0
+        - remote: ocb
+          ref: 10.0
+          depth: 200
         # This branch allow to add supplier for a specific variant
         # from the product template this is a v11-v12 backport
         - ak 10.0-backport-variant-supplierinfo
