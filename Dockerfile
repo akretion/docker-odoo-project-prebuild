@@ -1,6 +1,7 @@
 FROM camptocamp/odoo-project:10.0-3.1.2-batteries AS builder
 RUN /install/dev_package.sh
-RUN pip install git+https://github.com/akretion/ak
+RUN apt-get install -y python3-pip
+RUN pip3 install git+https://github.com/akretion/ak@af345086b142f184b12014c59359b28d4114db4c
 RUN git config --global user.email "bot@akretion.com"
 RUN git config --global user.name "Akretion Bot"
 COPY spec.yaml /odoo/spec.yaml

@@ -1,15 +1,19 @@
 odoo:
+    defaults:
+        depth: 200
     remotes:
         ocb: https://github.com/OCA/OCB
         ak: https://github.com/akretion/odoo
     merges:
-        - remote: ocb
-          ref: 10.0
-          depth: 200
+        - ocb 10.0
         # This branch allow to add supplier for a specific variant
         # from the product template this is a v11-v12 backport
         - ak 10.0-backport-variant-supplierinfo
+        # This branch fix issue with nested onchange
+        # for example the onchange on sale option are broken in native
         - ak 10.0-fix-onchange_nested_form
+        # This branch add a hook to be able to customise the
+        # onchange field for default value
         - ak 10.0_sale_add_missing_fields_hook
 
 account-financial-reporting:
