@@ -1,0 +1,541 @@
+./external-src/account-financial-reporting:
+  default:
+    depth: 20
+  fetch_all:
+  - origin
+  merges:
+  - origin f0d47522fe42e0bb1d6c39f644ddab5e213e8e54
+  remotes:
+    origin: https://github.com/OCA/account-financial-reporting
+  target: origin 10.0
+./external-src/account-financial-tools:
+  default:
+    depth: 20
+  fetch_all:
+  - origin
+  merges:
+  - origin cf7bc876b611324fd1f8cdb0c19d6abf032e01ea
+  remotes:
+    origin: https://github.com/OCA/account-financial-tools
+  target: origin 10.0
+./external-src/account-fiscal-rule:
+  default:
+    depth: 20
+  fetch_all:
+  - origin
+  merges:
+  - origin 7c796f4b420eb08c3fd62d47e8c18d020ef8225b
+  remotes:
+    origin: https://github.com/OCA/account-fiscal-rule
+  target: origin 10.0
+./external-src/account-invoice-reporting:
+  default:
+    depth: 20
+  fetch_all:
+  - origin
+  merges:
+  - origin 0fda461e869ffdc5fae84eab630d41d3f5bbda50
+  remotes:
+    origin: https://github.com/OCA/account-invoice-reporting
+  target: origin 10.0
+./external-src/account-invoicing:
+  default:
+    depth: 20
+  fetch_all:
+  - origin
+  merges:
+  - origin 4e783a1746eff5065783558dbe06f4ac5e57a7e3
+  remotes:
+    origin: https://github.com/OCA/account-invoicing
+  target: origin 10.0
+./external-src/account-payment:
+  default:
+    depth: 20
+  fetch_all:
+  - origin
+  merges:
+  - origin 0d66b11491d64930043131bafcfb3b7590a358a5
+  remotes:
+    origin: https://github.com/OCA/account-payment
+  target: origin 10.0
+./external-src/account-reconcile:
+  default:
+    depth: 20
+  fetch_all:
+  - damdam
+  - oca
+  merges:
+  - oca 2a14ff181d0027329404b2fe4170e64e930f5868
+  - damdam da123f51225b33059d750d1ce6ca8eb578ab78e8
+  remotes:
+    damdam: https://github.com/damdam-s/bank-statement-reconcile
+    oca: https://github.com/OCA/account-reconcile
+  target: oca merged
+./external-src/bank-payment:
+  default:
+    depth: 20
+  fetch_all:
+  - origin
+  merges:
+  - origin 1446e82bf6f63123922f9c2af7dc6758b380938d
+  remotes:
+    origin: https://github.com/OCA/bank-payment
+  target: origin 10.0
+./external-src/bank-statement-import:
+  default:
+    depth: 20
+  fetch_all:
+  - origin
+  merges:
+  - origin 607a5b976b90125723873337927e03d87c5355df
+  remotes:
+    origin: https://github.com/OCA/bank-statement-import
+  target: origin 10.0
+./external-src/community-data-files:
+  default:
+    depth: 20
+  fetch_all:
+  - origin
+  merges:
+  - origin 9e516a0d240547e461039b16214c1905a9e45d04
+  remotes:
+    origin: https://github.com/OCA/community-data-files
+  target: origin 10.0
+./external-src/connector:
+  default:
+    depth: 20
+  fetch_all:
+  - origin
+  merges:
+  - origin 7d029329a8983120b53017ddac08cef926540707
+  remotes:
+    origin: https://github.com/OCA/connector
+  target: origin 10.0
+./external-src/connector-ecommerce:
+  default:
+    depth: 20
+  fetch_all:
+  - origin
+  merges:
+  - origin a4c57243ac87c6236b3aa74cafa3db706f7d184d
+  remotes:
+    origin: https://github.com/OCA/connector-ecommerce
+  target: origin 10.0
+./external-src/connector-telephony:
+  default:
+    depth: 20
+  fetch_all:
+  - origin
+  merges:
+  - origin c9680b4c426cc86524a0f46953495cf1bfc7b10d
+  remotes:
+    origin: https://github.com/OCA/connector-telephony
+  target: origin 10.0
+./external-src/contract:
+  default:
+    depth: 20
+  fetch_all:
+  - origin
+  merges:
+  - origin b6f75686bce99e64d44e87edf0ec332b8f33ec2d
+  remotes:
+    origin: https://github.com/OCA/contract
+  target: origin 10.0
+./external-src/crm:
+  default:
+    depth: 20
+  fetch_all:
+  - origin
+  merges:
+  - origin 7d4f220395890657e12c634f5e37725458c10b00
+  remotes:
+    origin: https://github.com/OCA/crm
+  target: origin 10.0
+./external-src/delivery-carrier:
+  default:
+    depth: 20
+  fetch_all:
+  - origin
+  merges:
+  - origin d587cdada55afe91051d1747522edcb51b04cf1b
+  remotes:
+    origin: https://github.com/OCA/delivery-carrier
+  target: origin 10.0
+./external-src/e-commerce:
+  default:
+    depth: 20
+  fetch_all:
+  - origin
+  merges:
+  - origin e80a4b01272c9b513140859866f16bfaa33830be
+  remotes:
+    origin: https://github.com/OCA/e-commerce
+  target: origin 10.0
+./external-src/edi:
+  default:
+    depth: 20
+  fetch_all:
+  - origin
+  merges:
+  - origin 247023611ea8bb1d974e3c0dab01ef14dc25895f
+  remotes:
+    origin: https://github.com/OCA/edi
+  target: origin 10.0
+./external-src/hr:
+  default:
+    depth: 20
+  fetch_all:
+  - origin
+  merges:
+  - origin cd2ac7665a0ae2df141214e4fa46bc9e15409304
+  remotes:
+    origin: https://github.com/OCA/hr
+  target: origin 10.0
+./external-src/hr-timesheet:
+  default:
+    depth: 20
+  fetch_all:
+  - origin
+  merges:
+  - origin 4a732d0e58bff904f50ec8b6a344eae818d77835
+  remotes:
+    origin: https://github.com/OCA/hr-timesheet
+  target: origin 10.0
+./external-src/intrastat:
+  default:
+    depth: 20
+  fetch_all:
+  - origin
+  merges:
+  - origin b14a72b6b36609c4799be7523dfbdf96008284e1
+  remotes:
+    origin: https://github.com/OCA/intrastat
+  target: origin 10.0
+./external-src/l10n-france:
+  default:
+    depth: 20
+  fetch_all:
+  - origin
+  merges:
+  - origin a89b0548a002a2429700410be22f3b985461d4e9
+  remotes:
+    origin: https://github.com/OCA/l10n-france
+  target: origin 10.0
+./external-src/manufacture:
+  default:
+    depth: 20
+  fetch_all:
+  - origin
+  merges:
+  - origin 4f1d4af62c384435df0769535e2aa2f446fa5efa
+  remotes:
+    origin: https://github.com/OCA/manufacture
+  target: origin 10.0
+./external-src/partner-contact:
+  default:
+    depth: 20
+  fetch_all:
+  - origin
+  merges:
+  - origin a17bcc2cd8c7be5747be6cc49003eb6b501c50cc
+  remotes:
+    origin: https://github.com/OCA/partner-contact
+  target: origin 10.0
+./external-src/payment-gateway:
+  default:
+    depth: 20
+  fetch_all:
+  - origin
+  merges:
+  - origin 4dd382dceefbe4fbeabd901c8fa7ae61559f9d23
+  remotes:
+    origin: https://github.com/akretion/payment-gateway
+  target: origin 10.0
+./external-src/pos:
+  default:
+    depth: 20
+  fetch_all:
+  - origin
+  merges:
+  - origin 26f7d494c6b5a75b752738b16656aaa7d9a5d941
+  remotes:
+    origin: https://github.com/OCA/pos
+  target: origin 10.0
+./external-src/product-attribute:
+  default:
+    depth: 20
+  fetch_all:
+  - origin
+  merges:
+  - origin f4a33d0da98a20d7292617797a2cd5f705916bbf
+  remotes:
+    origin: https://github.com/OCA/product-attribute
+  target: origin 10.0
+./external-src/product-variant:
+  default:
+    depth: 20
+  fetch_all:
+  - origin
+  merges:
+  - origin e17daeb45397416af8b0f28a869652de8751180d
+  remotes:
+    origin: https://github.com/OCA/product-variant
+  target: origin 10.0
+./external-src/project:
+  default:
+    depth: 20
+  fetch_all:
+  - origin
+  merges:
+  - origin 32a286f9fad360c224cda6e75aec2c70285fa2dd
+  remotes:
+    origin: https://github.com/OCA/project
+  target: origin 10.0
+./external-src/project-reporting:
+  default:
+    depth: 20
+  fetch_all:
+  - origin
+  merges:
+  - origin 93e30d3bbcce64ccb8aa0d990996d443349ae98a
+  remotes:
+    origin: https://github.com/OCA/project-reporting
+  target: origin 10.0
+./external-src/purchase-reporting:
+  default:
+    depth: 20
+  fetch_all:
+  - origin
+  merges:
+  - origin f2d21f5b3e7e611baff931b7f2353e52f600869d
+  remotes:
+    origin: https://github.com/OCA/purchase-reporting
+  target: origin 10.0
+./external-src/purchase-workflow:
+  default:
+    depth: 20
+  fetch_all:
+  - origin
+  merges:
+  - origin 8a30fee05af5a6d28c13b01fb05cacde6eb6544f
+  remotes:
+    origin: https://github.com/OCA/purchase-workflow
+  target: origin 10.0
+./external-src/queue:
+  default:
+    depth: 20
+  fetch_all:
+  - origin
+  merges:
+  - origin f28d55fe6fe8a0ca769123de28bec9d958296aca
+  remotes:
+    origin: https://github.com/OCA/queue
+  target: origin 10.0
+./external-src/reporting-engine:
+  default:
+    depth: 20
+  fetch_all:
+  - origin
+  merges:
+  - origin 4ad0af2d9c6d2f5c6148ad37a7ce1f6da5d0d1a5
+  remotes:
+    origin: https://github.com/OCA/reporting-engine
+  target: origin 10.0
+./external-src/rest-framework:
+  default:
+    depth: 20
+  fetch_all:
+  - origin
+  merges:
+  - origin d316236fb34f7682d8d16acebe4a52db5bd5391a
+  remotes:
+    origin: https://github.com/OCA/rest-framework
+  target: origin 10.0
+./external-src/sale-financial:
+  default:
+    depth: 20
+  fetch_all:
+  - origin
+  merges:
+  - origin b0ee088751f2ab929a508bdc93d4721ec7c92c65
+  remotes:
+    origin: https://github.com/OCA/sale-financial
+  target: origin 10.0
+./external-src/sale-reporting:
+  default:
+    depth: 20
+  fetch_all:
+  - origin
+  merges:
+  - origin f2121cb12dd19ee5a5ff75aa2903eba0f64a73e7
+  remotes:
+    origin: https://github.com/OCA/sale-reporting
+  target: origin 10.0
+./external-src/sale-workflow:
+  default:
+    depth: 20
+  fetch_all:
+  - origin
+  merges:
+  - origin 1f2073d5d139dbb2111fc51105ba806018e49f63
+  remotes:
+    origin: https://github.com/OCA/sale-workflow
+  target: origin 10.0
+./external-src/search-engine:
+  default:
+    depth: 20
+  fetch_all:
+  - origin
+  merges:
+  - origin 7fd4e92e1fe2066b2fedd48d8b140f9d8cd98a11
+  remotes:
+    origin: https://github.com/OCA/search-engine
+  target: origin 10.0
+./external-src/server-auth:
+  default:
+    depth: 20
+  fetch_all:
+  - origin
+  merges:
+  - origin d31efb21b034334f28a8eedc3a5b4e7fb99a27e4
+  remotes:
+    origin: https://github.com/OCA/server-auth
+  target: origin 10.0
+./external-src/server-tools:
+  default:
+    depth: 20
+  fetch_all:
+  - origin
+  merges:
+  - origin ee81d081329d7878329f4c4015c7929e6ae68a40
+  remotes:
+    origin: https://github.com/OCA/server-tools
+  target: origin 10.0
+./external-src/shopinvader:
+  default:
+    depth: 20
+  fetch_all:
+  - origin
+  merges:
+  - origin 20a0c45a34b6e5dbc82da9d8db635b549f94d8c6
+  remotes:
+    origin: https://github.com/shopinvader/odoo-shopinvader
+  target: origin 10.0
+./external-src/shopinvader-misc:
+  default:
+    depth: 20
+  fetch_all:
+  - origin
+  merges:
+  - origin 0c8e6efac8282858e97ae0af8459c3346066e925
+  remotes:
+    origin: https://github.com/shopinvader/odoo-misc
+  target: origin 10.0
+./external-src/shopinvader-payment:
+  default:
+    depth: 20
+  fetch_all:
+  - origin
+  merges:
+  - origin d9aad741d82c6ea27a9e9601b280208d3b4fc349
+  remotes:
+    origin: https://github.com/shopinvader/odoo-shopinvader-payment
+  target: origin 10.0
+./external-src/shopinvader-pim:
+  default:
+    depth: 20
+  fetch_all:
+  - origin
+  merges:
+  - origin c114390d9e238083f76b458fefe12bd0ee4d3f86
+  remotes:
+    origin: https://github.com/shopinvader/odoo-pim
+  target: origin 10.0
+./external-src/social:
+  default:
+    depth: 20
+  fetch_all:
+  - origin
+  merges:
+  - origin 14b5a30ef48bacfb0145db4d7657e6b101790b31
+  remotes:
+    origin: https://github.com/OCA/social
+  target: origin 10.0
+./external-src/stock-logistics-barcode:
+  default:
+    depth: 20
+  fetch_all:
+  - origin
+  merges:
+  - origin 00dc21b3571ecb3a23f26780b47a378c3a215110
+  remotes:
+    origin: https://github.com/OCA/stock-logistics-barcode
+  target: origin 10.0
+./external-src/stock-logistics-reporting:
+  default:
+    depth: 20
+  fetch_all:
+  - origin
+  merges:
+  - origin 1f4716d034d72ae65e58540eb93eb3b251085869
+  remotes:
+    origin: https://github.com/OCA/stock-logistics-reporting
+  target: origin 10.0
+./external-src/stock-logistics-warehouse:
+  default:
+    depth: 20
+  fetch_all:
+  - ak
+  - oca
+  merges:
+  - oca 2a7fc6db8ffcdf0114a3aaddbd358822f310c912
+  - ak 50992683a7eea4550bead46b3571339da3fd732d
+  remotes:
+    ak: https://github.com/akretion/stock-logistics-warehouse
+    oca: https://github.com/OCA/stock-logistics-warehouse
+  target: ak 10-fix-putaway
+./external-src/stock-logistics-workflow:
+  default:
+    depth: 20
+  fetch_all:
+  - origin
+  merges:
+  - origin 6d9c7940dae7926299745b035380eaf352a23ef6
+  remotes:
+    origin: https://github.com/OCA/stock-logistics-workflow
+  target: origin 10.0
+./external-src/storage:
+  default:
+    depth: 20
+  fetch_all:
+  - origin
+  merges:
+  - origin 5226ab2a3e3af3614462628129b00eda33bec98b
+  remotes:
+    origin: https://github.com/akretion/storage
+  target: origin 10.0
+./external-src/web:
+  default:
+    depth: 20
+  fetch_all:
+  - origin
+  merges:
+  - origin 880df8eb7bb064079f795d474abf614f8afd31a0
+  remotes:
+    origin: https://github.com/OCA/web
+  target: origin 10.0
+src:
+  defaults:
+    depth: 200
+  fetch_all:
+  - ak
+  - ocb
+  merges:
+  - ocb 188c4c230056bc8702665961055bb65af9b22ebd
+  - ak 802cf583b7b553c5a326d7426e0d6520b615fe6d
+  - ak 7d682c649f12b67f19025a9d4e864dd6169bd4b0
+  - ak 842674af834a26857caa900c6c72a534dac38596
+  remotes:
+    ak: https://github.com/akretion/odoo
+    ocb: https://github.com/OCA/OCB
+  target: ocb merged
