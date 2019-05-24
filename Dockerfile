@@ -11,7 +11,7 @@ RUN ak build
 RUN find . -name *.po ! -name 'fr.po' -type f -exec rm -v {} +
 RUN find . -name .git -type d -exec rm -rf -v {} +
 WORKDIR /odoo/src
-RUN find . -name l10n_* ! -name 'l10n_fr*' -type d -exec rm -rf -v {} +
+RUN find . -name l10n_* ! -name 'l10n_fr*' ! -name 'l10n_generic_coa' ! -type d -exec rm -rf -v {} +
 RUN find . -name website* -type d -exec rm -rf -v {} +
 RUN find . -name theme* -type d -exec rm -rf -v {} +
 RUN find . -name *survey* -type d -exec rm -rf -v {} +
