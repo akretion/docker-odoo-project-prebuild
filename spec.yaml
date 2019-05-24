@@ -164,3 +164,25 @@ stock-logistics-workflow:
 
 web:
     src: https://github.com/OCA/web 10.0
+
+# Shopinvader Repository
+shopinvader:
+    src: https://github.com/shopinvader/odoo-shopinvader 10.0
+
+shopinvader-pim:
+    src: https://github.com/shopinvader/odoo-pim 10.0
+
+shopinvader-payment:
+    src: https://github.com/shopinvader/odoo-shopinvader-payment 10.0
+
+shopinvader-misc:
+    src: https://github.com/shopinvader/odoo-misc 10.0
+
+# Storage from Akretion (soon in OCA)
+storage:
+    src: https://github.com/akretion/storage 10.0
+
+# Akretion generic dependency
+
+payment-gateway:
+    src: https://github.com/akretion/payment-gateway 10.0
