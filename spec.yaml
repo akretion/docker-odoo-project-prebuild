@@ -38,15 +38,23 @@ account-reconcile:
     remotes:
         oca: https://github.com/OCA/account-reconcile
         damdam: https://github.com/damdam-s/bank-statement-reconcile
+        akretion: https://github.com/akretion/account-reconcile
     merges:
-      -  oca 10.0
-      -  damdam 10.0-mig-account_move_transactionid_import
+      - oca 10.0
+      - damdam 10.0-mig-account_move_transactionid_import
+      - akretion 10.0-stripe-move-import
 
 bank-payment:
     src: https://github.com/OCA/bank-payment 10.0
 
 bank-statement-import:
-    src: https://github.com/OCA/bank-statement-import 10.0
+    modules: []
+    remotes:
+        oca: https://github.com/OCA/bank-statement-import
+        akretion: https://github.com/akretion/bank-statement-import
+    merges:
+        - oca 10.0
+        - akretion 10.0-paypal-bank-statement
 
 community-data-files:
     src: https://github.com/OCA/community-data-files 10.0
@@ -186,3 +194,15 @@ storage:
 
 payment-gateway:
     src: https://github.com/akretion/payment-gateway 10.0
+
+bank-statement-reconcile-simple:
+    modules: []
+    src: https://github.com/akretion/bank-statement-reconcile-simple 10.0
+
+odoo-usuability:
+    modules: []
+    src: https://github.com/akretion/odoo-usability 10.0
+
+profiloo:
+    modules: []
+    src: https://github.com/akretion/profiloo 10.0

@@ -4,7 +4,7 @@
   fetch_all:
   - origin
   merges:
-  - origin f0d47522fe42e0bb1d6c39f644ddab5e213e8e54
+  - origin d52934409bf396de6b12fa2e819190598150181f
   remotes:
     origin: https://github.com/OCA/account-financial-reporting
   target: origin 10.0
@@ -14,7 +14,7 @@
   fetch_all:
   - origin
   merges:
-  - origin cf7bc876b611324fd1f8cdb0c19d6abf032e01ea
+  - origin f7a224bdad9bdfbbbe9fa8426811dc4ed0462b83
   remotes:
     origin: https://github.com/OCA/account-financial-tools
   target: origin 10.0
@@ -54,7 +54,7 @@
   fetch_all:
   - origin
   merges:
-  - origin 0d66b11491d64930043131bafcfb3b7590a358a5
+  - origin e6ea06b7b6a65d22b6dbafcb67e5066b2975fb2e
   remotes:
     origin: https://github.com/OCA/account-payment
   target: origin 10.0
@@ -62,12 +62,15 @@
   default:
     depth: 20
   fetch_all:
+  - akretion
   - damdam
   - oca
   merges:
   - oca 2a14ff181d0027329404b2fe4170e64e930f5868
   - damdam da123f51225b33059d750d1ce6ca8eb578ab78e8
+  - akretion f57abceca22af0248a1803c68b5323276d163b65
   remotes:
+    akretion: https://github.com/akretion/account-reconcile
     damdam: https://github.com/damdam-s/bank-statement-reconcile
     oca: https://github.com/OCA/account-reconcile
   target: oca merged
@@ -77,7 +80,7 @@
   fetch_all:
   - origin
   merges:
-  - origin 1446e82bf6f63123922f9c2af7dc6758b380938d
+  - origin 85f4e67bc3cd2ac9dc3003c023de13ba85696827
   remotes:
     origin: https://github.com/OCA/bank-payment
   target: origin 10.0
@@ -85,11 +88,24 @@
   default:
     depth: 20
   fetch_all:
+  - akretion
+  - oca
+  merges:
+  - oca 607a5b976b90125723873337927e03d87c5355df
+  - akretion f79c9a1ff293a90f5b1ac0fa804d8f94cb04f5fb
+  remotes:
+    akretion: https://github.com/akretion/bank-statement-import
+    oca: https://github.com/OCA/bank-statement-import
+  target: oca merged
+./external-src/bank-statement-reconcile-simple:
+  default:
+    depth: 20
+  fetch_all:
   - origin
   merges:
-  - origin 607a5b976b90125723873337927e03d87c5355df
+  - origin bdbcf7d7aa57b47e119be23015a5c86c2f491eef
   remotes:
-    origin: https://github.com/OCA/bank-statement-import
+    origin: https://github.com/akretion/bank-statement-reconcile-simple
   target: origin 10.0
 ./external-src/community-data-files:
   default:
@@ -127,7 +143,7 @@
   fetch_all:
   - origin
   merges:
-  - origin c9680b4c426cc86524a0f46953495cf1bfc7b10d
+  - origin e5261ef7064b29c2eeb5b69c8ff3bf9e281efbc6
   remotes:
     origin: https://github.com/OCA/connector-telephony
   target: origin 10.0
@@ -137,7 +153,7 @@
   fetch_all:
   - origin
   merges:
-  - origin b6f75686bce99e64d44e87edf0ec332b8f33ec2d
+  - origin d6c9ef263241481ada3abea152b352ffcf91fd1a
   remotes:
     origin: https://github.com/OCA/contract
   target: origin 10.0
@@ -147,7 +163,7 @@
   fetch_all:
   - origin
   merges:
-  - origin 7d4f220395890657e12c634f5e37725458c10b00
+  - origin f973fc6de61bd65d0c26bddcd851bbe7e38f1ba5
   remotes:
     origin: https://github.com/OCA/crm
   target: origin 10.0
@@ -157,7 +173,7 @@
   fetch_all:
   - origin
   merges:
-  - origin d587cdada55afe91051d1747522edcb51b04cf1b
+  - origin 224d5367ebb7e1e184c68145e6a69cce88e5e035
   remotes:
     origin: https://github.com/OCA/delivery-carrier
   target: origin 10.0
@@ -167,7 +183,7 @@
   fetch_all:
   - origin
   merges:
-  - origin e80a4b01272c9b513140859866f16bfaa33830be
+  - origin b0ddc678787e76a4fddea2b817c2a7bce8e01037
   remotes:
     origin: https://github.com/OCA/e-commerce
   target: origin 10.0
@@ -177,7 +193,7 @@
   fetch_all:
   - origin
   merges:
-  - origin 247023611ea8bb1d974e3c0dab01ef14dc25895f
+  - origin 741ab98e18a4f7bfa58206163fcf131ddcf07631
   remotes:
     origin: https://github.com/OCA/edi
   target: origin 10.0
@@ -227,9 +243,19 @@
   fetch_all:
   - origin
   merges:
-  - origin 4f1d4af62c384435df0769535e2aa2f446fa5efa
+  - origin 3854e183de376664fe53c8822e0e9c03d1566c33
   remotes:
     origin: https://github.com/OCA/manufacture
+  target: origin 10.0
+./external-src/odoo-usuability:
+  default:
+    depth: 20
+  fetch_all:
+  - origin
+  merges:
+  - origin 1364748052fc97cc3033dd8a3c01613c6d2805c3
+  remotes:
+    origin: https://github.com/akretion/odoo-usability
   target: origin 10.0
 ./external-src/partner-contact:
   default:
@@ -237,7 +263,7 @@
   fetch_all:
   - origin
   merges:
-  - origin a17bcc2cd8c7be5747be6cc49003eb6b501c50cc
+  - origin c9c9cd9f4f695b24da07f5d689f9a2c10a151fdb
   remotes:
     origin: https://github.com/OCA/partner-contact
   target: origin 10.0
@@ -257,7 +283,7 @@
   fetch_all:
   - origin
   merges:
-  - origin 26f7d494c6b5a75b752738b16656aaa7d9a5d941
+  - origin 243b88a8c389bbaa792b59b25b98799d3a2a8245
   remotes:
     origin: https://github.com/OCA/pos
   target: origin 10.0
@@ -277,9 +303,19 @@
   fetch_all:
   - origin
   merges:
-  - origin e17daeb45397416af8b0f28a869652de8751180d
+  - origin b6aa1a46e8e32c63e8979bfef5da4adf8b3865cd
   remotes:
     origin: https://github.com/OCA/product-variant
+  target: origin 10.0
+./external-src/profiloo:
+  default:
+    depth: 20
+  fetch_all:
+  - origin
+  merges:
+  - origin 798f0575f09be37f08f11c3952b6258fdfc86efc
+  remotes:
+    origin: https://github.com/akretion/profiloo
   target: origin 10.0
 ./external-src/project:
   default:
@@ -377,7 +413,7 @@
   fetch_all:
   - origin
   merges:
-  - origin 1f2073d5d139dbb2111fc51105ba806018e49f63
+  - origin ca002ad6d51df37acc5aa162779f10439303eea6
   remotes:
     origin: https://github.com/OCA/sale-workflow
   target: origin 10.0
@@ -387,7 +423,7 @@
   fetch_all:
   - origin
   merges:
-  - origin 7fd4e92e1fe2066b2fedd48d8b140f9d8cd98a11
+  - origin 16a725a2e42714b058172e7941d81d3aa08285a9
   remotes:
     origin: https://github.com/OCA/search-engine
   target: origin 10.0
@@ -407,7 +443,7 @@
   fetch_all:
   - origin
   merges:
-  - origin ee81d081329d7878329f4c4015c7929e6ae68a40
+  - origin 92318a97dc7e42b5e6f99729769da68a2246c3be
   remotes:
     origin: https://github.com/OCA/server-tools
   target: origin 10.0
@@ -417,7 +453,7 @@
   fetch_all:
   - origin
   merges:
-  - origin 20a0c45a34b6e5dbc82da9d8db635b549f94d8c6
+  - origin 6a91dba4a6b4458af7784f8ed44bbff6ab29d821
   remotes:
     origin: https://github.com/shopinvader/odoo-shopinvader
   target: origin 10.0
@@ -427,7 +463,7 @@
   fetch_all:
   - origin
   merges:
-  - origin 0c8e6efac8282858e97ae0af8459c3346066e925
+  - origin 3593cccd578f2edc528c445a93edb644d13887f0
   remotes:
     origin: https://github.com/shopinvader/odoo-misc
   target: origin 10.0
@@ -500,7 +536,7 @@
   fetch_all:
   - origin
   merges:
-  - origin 6d9c7940dae7926299745b035380eaf352a23ef6
+  - origin f9015c708550a36ff2e80cd83235f72adde0192f
   remotes:
     origin: https://github.com/OCA/stock-logistics-workflow
   target: origin 10.0
@@ -510,7 +546,7 @@
   fetch_all:
   - origin
   merges:
-  - origin 5226ab2a3e3af3614462628129b00eda33bec98b
+  - origin f8d305f5bb1aeed811e24732af4e532e98c37286
   remotes:
     origin: https://github.com/akretion/storage
   target: origin 10.0
@@ -520,7 +556,7 @@
   fetch_all:
   - origin
   merges:
-  - origin 880df8eb7bb064079f795d474abf614f8afd31a0
+  - origin 724e0d6cba2fb54daee9f56b8238380fa5f330f1
   remotes:
     origin: https://github.com/OCA/web
   target: origin 10.0
@@ -531,7 +567,7 @@ src:
   - ak
   - ocb
   merges:
-  - ocb 188c4c230056bc8702665961055bb65af9b22ebd
+  - ocb d39a8b6b902a8f7756b567d99e4f758162c8c333
   - ak 802cf583b7b553c5a326d7426e0d6520b615fe6d
   - ak 7d682c649f12b67f19025a9d4e864dd6169bd4b0
   - ak 842674af834a26857caa900c6c72a534dac38596
