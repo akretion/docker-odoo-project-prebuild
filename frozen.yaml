@@ -71,7 +71,7 @@ manufacture:
   origin:
     '12.0': a27336347f9d678d54f78e30838e79c17c465a6d
 odoo:
-  ocb:
+  origin:
     '12.0': 18af2b66341beeb82fc84309b38465afe2c65081
 odoo-usuability:
   origin:

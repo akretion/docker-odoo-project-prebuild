@@ -1,10 +1,5 @@
 odoo:
-    defaults:
-        depth: 200
-    remotes:
-        ocb: https://github.com/OCA/OCB
-    merges:
-        - ocb 12.0
+    src: https://github.com/OCA/OCB 12.0
 
 account-financial-reporting:
     src: https://github.com/OCA/account-financial-reporting 12.0
@@ -148,8 +143,8 @@ web:
 shopinvader:
     src: https://github.com/shopinvader/odoo-shopinvader 12.0
 
-shopinvader-pim:
-    src: https://github.com/shopinvader/odoo-pim 12.0
+#shopinvader-pim:
+#    src: https://github.com/shopinvader/odoo-pim 12.0
 
 shopinvader-payment:
     src: https://github.com/shopinvader/odoo-shopinvader-payment 12.0
