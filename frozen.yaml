@@ -72,10 +72,10 @@ manufacture:
     '12.0': a27336347f9d678d54f78e30838e79c17c465a6d
 odoo:
   origin:
-    '12.0': 18af2b66341beeb82fc84309b38465afe2c65081
+    '12.0': db19e21ccbcc5ed1b3c1895a1390ac3e8cb83edc
 odoo-usuability:
   origin:
-    '12.0': e220da006f4bfcf12d9b5e20dbea66e5a91b52ef
+    '12.0': 514009463304e6bfcdb8cb3b80bc5d9e0c85a0b7
 partner-contact:
   origin:
     '12.0': 4610e0e704178b17e714ac22278283942aa1e318
@@ -153,10 +153,10 @@ stock-logistics-warehouse:
     '12.0': c2db7d0a684082bd7bfee34b2833a97b6cd7c12e
 stock-logistics-workflow:
   origin:
-    '12.0': 8fa73a0d3f8a3e9c73cd0698466d9aefe5d6f901
+    '12.0': 331e7c835ad3878f23743e52020e7b851d7c7fb2
 storage:
   origin:
     '12.0': 88cfb8f5bf60afbe3f7c68048ccf89ebf09fc091
 web:
   origin:
-    '12.0': 85e7fc31a84f92a48186edabc12d81c42f1b87d4
+    '12.0': 372b61ffde4ce8b852d3ae2c229e8fdfaceb2146
