@@ -15,7 +15,6 @@ RUN find . -name l10n_* ! -name 'l10n_fr*' ! -name 'l10n_generic_coa*' ! -type d
 RUN find . -name website* -type d -exec rm -rf -v {} +
 RUN find . -name theme* -type d -exec rm -rf -v {} +
 RUN find . -name *survey* -type d -exec rm -rf -v {} +
-RUN find . -name portal* -type d -exec rm -rf -v {} +
 RUN find . -name hw* -type d -exec rm -rf -v {} +
 
 FROM camptocamp/odoo-project:12.0-latest-batteries
