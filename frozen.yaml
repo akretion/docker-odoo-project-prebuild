@@ -1,162 +1,162 @@
 account-financial-reporting:
   origin:
-    '12.0': 4cc4325769f3fdf04e62f128e56bad9a8be55e43
+    '12.0': 0861cb152d480fd2a11ccaec4a3f3f7a1d36f4e3
 account-financial-tools:
   origin:
-    '12.0': 2525a872f4398fd343c117c905bf3c23cc29d132
+    '12.0': 91c843f71ee5cf163bb4c2adb9e5aaf3d419c7f4
 account-fiscal-rule:
   origin:
-    '12.0': 784f84ed0cc30f6d89f844a05c22deec9a4b335d
+    '12.0': f396ba6a2e2acebaaff579f0e6991b669812d64d
 account-invoice-reporting:
   origin:
-    '12.0': aa976557da0e4372df0798d515b82abf89b19647
+    '12.0': 0a9354afd161c55c2597bef5c65068045c42d9e6
 account-invoicing:
   origin:
-    '12.0': fd174b52f36853b9897bb3065b9d1f6cc2377bb7
+    '12.0': 3e58848bf1e265e8400a089ad1be3141467af81f
 account-payment:
   origin:
-    '12.0': 5df1dfd6de28608ea389119b4106b6bd06ce5451
+    '12.0': 09426dd77a26834ccc029376e3b6776a1432a180
 account-reconcile:
   origin:
-    '12.0': 7da56863b3528e49810542847f118d1a095a6d57
+    '12.0': 0390b112def3d362d95232d382317511616ee6dd
 bank-payment:
   origin:
-    '12.0': 8fe233dd39dcd9959121887e6797cb79b7b25dc6
+    '12.0': 68f84bb44dca7077e5204f40f72b45683e96b22e
 bank-statement-import:
   origin:
-    '12.0': 6f33446b5b3b996f0bca30a1868f19a4e63e39a3
+    '12.0': c6753bd63d3c9f5505d7152f2951a9af62d6d2d0
 bank-statement-reconcile-simple:
   origin:
     '12.0': 0f35b53e5f61636e3e2f48646fd76b17493bf039
 community-data-files:
   origin:
-    '12.0': 9ab93dba781a44640cdcea244710dcf33fdb7d40
+    '12.0': a643f5f2de7b87ab3b09f3cc688c4872c467d0a3
 connector:
   origin:
-    '12.0': a0286ab86de6625a05c319ac75578d02d9ec2b33
+    '12.0': fdd035ae4e56cd3721102515827dfe0b52effeef
 connector-ecommerce:
   origin:
-    '12.0': 17b80149d7a119e0ec19e06fd696dc5f47a0addf
+    '12.0': 41674c2f4681ea7b6713d8273b44c0c9b816116a
 connector-telephony:
   origin:
-    '12.0': 82bfa868f728198df6c0c53cb510d71656519f4a
+    '12.0': 6d9df1037a97dbf791a7f0a717846a63144174bb
 contract:
   origin:
-    '12.0': 1f5b0e2995dc5e974083875a0c7ddce2572e761c
+    '12.0': c677201ad4e0ec1d22a8f08faa3f5c2bc8f8775e
 crm:
   origin:
-    '12.0': a25fff9f09d9f8e284f8cc063d9924e4000e92ff
+    '12.0': c70f90d0b849612649e2dfe4d4758cf89a91de54
 delivery-carrier:
   origin:
-    '12.0': e9e853bee6d784169416ba9bf3de20076c2313b6
+    '12.0': 2e960f4faa3a043695c0acb830f95119480a1d81
 e-commerce:
   origin:
-    '12.0': 81ea9acfb46b31f48d164225875f53cd1b6b1fbe
+    '12.0': bb34d21c02997b5b525bb785f49058222e45c3ea
 edi:
   origin:
-    '12.0': a81a2aa9adddff3a924156f4eb1e5abd7f3e166b
+    '12.0': d118bdba3374a09f43db035b5ee2806d58387ef2
 hr:
   origin:
-    '12.0': c19588ba02f8bbafa95d7d305118d02e9c2f67b0
+    '12.0': 2674c06104bee007756dd3d8f541e52d9fcf0bc5
 hr-timesheet:
   origin:
-    '12.0': 9950898078d615c3980b2b3b69982573aab2c2a2
+    '12.0': 3f12852b43ed11a772bde6f4d80a78820c8ce836
 intrastat:
   origin:
-    '12.0': 8220f10af2eaa80104daafa2d01edf7bec711277
+    '12.0': 13e2d3a0065aebc80e01976baecf7c3137a57d56
 l10n-france:
   origin:
-    '12.0': d65fb01e6e54bb360b40002e2f7244873b9c9cd7
+    '12.0': 63638179c7fc56b5effca278bed06a83ce97c11e
 manufacture:
   origin:
-    '12.0': a27336347f9d678d54f78e30838e79c17c465a6d
+    '12.0': b2d435c854ee034f266819065c1ae8c6f23df3fb
 odoo:
   origin:
-    '12.0': db19e21ccbcc5ed1b3c1895a1390ac3e8cb83edc
+    '12.0': b2ca70557b7e872dc1a4b25512c0d8f6c1731ead
 odoo-usuability:
   origin:
-    '12.0': 514009463304e6bfcdb8cb3b80bc5d9e0c85a0b7
+    '12.0': 941c610c96143e288ea038c6dfc906bbded977af
 partner-contact:
   origin:
-    '12.0': 4610e0e704178b17e714ac22278283942aa1e318
+    '12.0': cdd8832ea469fa746b19895c1ec99174189be241
 pos:
   origin:
-    '12.0': 867613fe73b8a78b8a47aa92e47bdb12f31cbde6
+    '12.0': 95481f2a10c5ac30e28e4c839bb1af73dab8b778
 product-attribute:
   origin:
-    '12.0': 28adcd88c2eeceeda02161de039e1335b734b4bc
+    '12.0': 8b74a52d59df63824f17ca115c26ee8a00d0bf95
 product-variant:
   origin:
-    '12.0': 26b6d89a63b8eab1e1400f3f6a8f7bede64985a1
+    '12.0': e413391b1489f84f16861865be8ac4c2819b7966
 profiloo:
   origin:
     '12.0': 798f0575f09be37f08f11c3952b6258fdfc86efc
 project:
   origin:
-    '12.0': 1ed2168d43ed6bafc1d3fa4c2f6811e218034fac
+    '12.0': b62477931100dc71f3652dae0d91bdf543be9e30
 project-reporting:
   origin:
-    '12.0': 4054d9be22d0e122e1cdc2bd327057a7b416fc97
+    '12.0': 7f71f086dd732170e7605dfdf80e6cc4969a711e
 purchase-reporting:
   origin:
-    '12.0': c12dcfa2d2509a2885fd8744d84947d08cfc0e66
+    '12.0': b34e552fbe91fdb7629c067316fd9986885376c3
 purchase-workflow:
   origin:
-    '12.0': 4a36982a221ef5e141ff42b5d2546e0712383cb9
+    '12.0': 9272f419bfd0b3936b5312a497938798e01ed802
 queue:
   origin:
-    '12.0': fdcde048348694df37ce2f63686467cf762aeda5
+    '12.0': 66f9a32c61b7f556a7ebab125bc93933335e4f0c
 reporting-engine:
   origin:
-    '12.0': ba3e77f8290bf65cb0ae98f0dff77c7d1e26f73e
+    '12.0': 01c97ce05d077ddf8ea97a436cd846b149606b29
 rest-framework:
   origin:
-    '12.0': 594dbcd781ec6b370d979d763f65785ce64c8bce
+    '12.0': b8440ba0ef1c9ad14f0860fd44d6ea5103a824b1
 sale-financial:
   origin:
-    '12.0': 38ba14ee375beef149002a8cf59c01502fe059e8
+    '12.0': 0f14d0080769190f94a90d2181d8a5883e3c5cc1
 sale-reporting:
   origin:
-    '12.0': 8130967e66669c1401917d5712549b39c2f2283d
+    '12.0': 74be4732a3d835d3db7cbcb1d74df322d2d290a3
 sale-workflow:
   origin:
-    '12.0': 6a4fc5b578758136910eccfaad5b34f7e60b7204
+    '12.0': b2f5a7fbabacf6fdb58067626b1445f06498f17e
 search-engine:
   origin:
-    '12.0': aa2ca12d5d087b4a79c070317d919222e544da0d
+    '12.0': fed23b7925b3f18ec5c1dd632fef02973b9bcf4f
 server-auth:
   origin:
-    '12.0': 42b4727d9d0b9fff3dcc6690887168237818b870
+    '12.0': c4de99b96cddd9b4de6fc4544f185188fb3fcd64
 server-tools:
   origin:
-    '12.0': 11388e1bec7d9757599b168ff5754af347c8993d
+    '12.0': 8b20b5b7e5012c2cca1c1b3ec8c6deba33e73888
 shopinvader:
   origin:
-    '12.0': ae90f00b46ef6f691791b29f8c5cadf600b45d60
+    '12.0': 4c0da90dfed4255034cf559c3bc48ecc8d57ae14
 shopinvader-misc:
   origin:
     '12.0': 14e5ee63c47955a992600de7ccdb9e884084249c
 shopinvader-payment:
   origin:
-    '12.0': 6f51af1135cc8e3510688ca79b99bf45776c46c2
+    '12.0': 2036d997cac8db87da8260d36613a55056011b28
 social:
   origin:
-    '12.0': f70324125eb075c5f99daec08f145b537afd6596
+    '12.0': 1f4c9976bdafe52eb9d28d7a975e0d06c64c4a22
 stock-logistics-barcode:
   origin:
-    '12.0': 4da15e966a1e11e813bda77656ba91749700ade6
+    '12.0': 98ff670ec0b7f31e7e135a0300303a9e3c3d539c
 stock-logistics-reporting:
   origin:
-    '12.0': c80e0368559a5c7a250f017b3ffe2b75803255e0
+    '12.0': 02aba45362cf41542cbd3a2a6df2c111d1d1b0b1
 stock-logistics-warehouse:
   origin:
-    '12.0': c2db7d0a684082bd7bfee34b2833a97b6cd7c12e
+    '12.0': b63a1ac73b67c05024e4b40fd236a96c962b5c36
 stock-logistics-workflow:
   origin:
-    '12.0': 331e7c835ad3878f23743e52020e7b851d7c7fb2
+    '12.0': 68e9b75c3a99e7a17eae4a6edbc9da16c574d49b
 storage:
   origin:
-    '12.0': 88cfb8f5bf60afbe3f7c68048ccf89ebf09fc091
+    '12.0': 273bad7baa0928d0a9890e05432c8b15d3f40e41
 web:
   origin:
-    '12.0': 372b61ffde4ce8b852d3ae2c229e8fdfaceb2146
+    '12.0': 3032cee510faba7fe77a5d0f77cb9b174aa4e9e0
