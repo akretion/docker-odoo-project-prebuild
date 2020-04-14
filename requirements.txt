@@ -1,0 +1,21 @@
+boto3
+cachetools
+cerberus
+click-odoo
+click-odoo-contrib
+factur-x
+openupgradelib
+phonenumbers
+elasticsearch
+parse-accept-language
+pyquerystring
+slugify
+unidecode
+
+git+https://github.com/akretion/locomotivecms-python-client@master#egg=locomotivecms
+
+# For testing
+freezegun
+vcrpy
+vcrpy-unittest
+

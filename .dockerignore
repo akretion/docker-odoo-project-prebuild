@@ -1,0 +1,15 @@
+**/.git/**/*
+**/.git
+**/.gitignore
+**/.travis.yml
+**/LICENSE
+**/*.pyc
+**/README.md
+**/*.egg-info
+**/*.sql
+!/src/odoo/addons/base/base.sql
+
+# Only for dev
+local-src/**/*
+external-src/**/*
+src/addons
