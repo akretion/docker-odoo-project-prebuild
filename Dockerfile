@@ -4,11 +4,13 @@ ARG BUILD_MODE=production
 
 # Build odoo source
 COPY odoo-spec.yaml /builder/odoo-spec.yaml
+COPY odoo-frozen.yaml /builder/odoo-frozen.yaml
 ENV ODOO_VERSION=12.0 BUILD_MODE=${BUILD_MODE} BUILD_RESTRICT_LANG=fr.po
 RUN build-odoo
 
 # Build external source
 COPY spec.yaml /builder/spec.yaml
+COPY frozen.yaml /builder/frozen.yaml
 RUN build-odoo-external
 
 # Copy odoo source from builder stage and install dependency
