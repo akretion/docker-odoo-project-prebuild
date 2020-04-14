@@ -3,13 +3,14 @@ cachetools
 cerberus
 click-odoo
 click-odoo-contrib
+cryptography
 factur-x
 openupgradelib
 phonenumbers
 elasticsearch
 parse-accept-language
 pyquerystring
-slugify
+python-slugify
 unidecode
 
 git+https://github.com/akretion/locomotivecms-python-client@master#egg=locomotivecms
