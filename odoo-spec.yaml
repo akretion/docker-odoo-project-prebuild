@@ -52,6 +52,7 @@ odoo:
     - l10n_fr_sale_closing
     - l10n_fr_certification
     - l10n_fr_fec
+    - l10n_generic_coa
     - link_tracker
     - mail
     - maintenance
