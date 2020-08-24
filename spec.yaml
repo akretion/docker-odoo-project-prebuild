@@ -166,6 +166,9 @@ shopinvader-misc:
 
 # Akretion generic dependency
 
+ak-odoo-incubator:
+    src: https://github.com/akretion/ak-odoo-incubator 12.0
+
 bank-statement-reconcile-simple:
     modules: []
     src: https://github.com/akretion/bank-statement-reconcile-simple 12.0

@@ -5,7 +5,7 @@ click-odoo
 click-odoo-contrib
 cryptography
 factur-x
-openupgradelib
+openupgradelib @ git+https://github.com/OCA/openupgradelib.git@master
 phonenumbers
 elasticsearch
 parse-accept-language
@@ -13,7 +13,7 @@ pyquerystring
 python-slugify
 unidecode
 
-git+https://github.com/akretion/locomotivecms-python-client@master#egg=locomotivecms
+locomotivecms @ git+https://github.com/akretion/locomotivecms-python-client@master
 
 # For testing
 freezegun
