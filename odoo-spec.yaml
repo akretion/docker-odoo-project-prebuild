@@ -13,6 +13,7 @@ odoo:
     - auth_oauth
     - auth_password_policy
     - auth_signup
+    - barcodes
     - base_address_city
     - base_address_extended
     - base_automation
